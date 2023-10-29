@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para ingresar el ID -->
+    <EditText
+        android:id="@+id/identifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese ID del producto" />
+
+    <!-- Botón para buscar en la base de datos -->
+    <Button
+        android:id="@+id/scaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+
+    <!-- TextView para mostrar los resultados -->
+    <TextView
+        android:id="@+id/id_escaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultados aparecerán aquí"
+        android:paddingTop="16dp" />
+
+    <!-- Puedes agregar otros elementos según lo necesites -->
+
+</LinearLayout>
+

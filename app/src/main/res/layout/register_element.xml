@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EscanearProducto"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/scaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escanear QR" />
+
+    <TextView
+        android:id="@+id/id_escaner"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/identifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="copiar id de arriba"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="hora (registro automático)"
+        android:inputType="text"
+        tools:text="hora (registro automático)" />
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="fecha (registro automático)"
+        android:inputType="text"
+        tools:text="fecha (registro automático)" />
+
+    <RadioGroup
+        android:id="@+id/rgzona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbzona1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona 1" />
+
+        <RadioButton
+            android:id="@+id/rbzona2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona 2" />
+
+        <RadioButton
+            android:id="@+id/rbzona3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona 3" />
+
+        <RadioButton
+            android:id="@+id/rbzona4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona 4" />
+
+        <RadioButton
+            android:id="@+id/rbzona5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona 5" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Datos"
+        android:onClick="insertar" /> <!-- Agregado android:onClick aquí -->
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base colors -->
+    <color name="primary">#6200EE</color> <!-- Anteriormente purple_500. Es tu color primario. -->
+    <color name="primary_variant">#3700B3</color> <!-- Anteriormente purple_700. Una variante del color primario. -->
+    <color name="secondary">#03DAC5</color> <!-- Anteriormente teal_200. Es tu color secundario o color de acento. -->
+    <color name="background">#FFFFFF</color> <!-- Color de fondo. Blanco puro para un tema claro. -->
+    <color name="on_background">#000000</color> <!-- Color de texto y otros elementos sobre el fondo. -->
+
+    <!-- Additional colors (podrías no necesitarlos todos, solo si planeas usar variantes) -->
+    <color name="gray_200">#EEEEEE</color> <!-- Un gris suave, útil para fondos o divisores. -->
+    <color name="gray_500">#9E9E9E</color> <!-- Gris medio, útil para texto secundario. -->
+    <color name="error">#B00020</color> <!-- Color para mensajes de error o elementos interactivos en estado de error. -->
+
+    <!-- Dark theme colors (en caso de que quieras agregar un modo oscuro en el futuro) -->
+    <color name="dark_background">#121212</color> <!-- Color de fondo para el modo oscuro. -->
+    <color name="on_dark_background">#FFFFFF</color> <!-- Color de texto y otros elementos para el modo oscuro. -->
+</resources>
